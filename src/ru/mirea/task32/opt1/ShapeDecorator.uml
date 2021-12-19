@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/media/win10/Users/user/IdeaProjects/JavaFirstMirea/src/ru/mirea/task25/opt1/ShapeDecorator.java</OriginalElement>
+  <nodes>
+    <node x="269.0" y="111.0">ru.mirea.task25.opt1.Rectangle</node>
+    <node x="345.0" y="0.0">ru.mirea.task25.opt1.Shape</node>
+    <node x="12.0" y="0.0">ru.mirea.task25.opt1.ShapeDecorator</node>
+    <node x="0.0" y="163.0">ru.mirea.task25.opt1.RedShapeDecorator</node>
+    <node x="0.0" y="320.0">ru.mirea.task25.opt1.DecoratorPatternDemo</node>
+    <node x="416.0" y="111.0">ru.mirea.task25.opt1.Circle</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.mirea.task25.opt1.RedShapeDecorator" target="ru.mirea.task25.opt1.ShapeDecorator" relationship="GENERALIZATION">
+      <point x="0.0" y="-56.0" />
+      <point x="0.0" y="56.5" />
+    </edge>
+    <edge source="ru.mirea.task25.opt1.Rectangle" target="ru.mirea.task25.opt1.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-43.5" />
+      <point x="332.5" y="86.0" />
+      <point x="403.5" y="86.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+    <edge source="ru.mirea.task25.opt1.Circle" target="ru.mirea.task25.opt1.Shape" relationship="REALIZATION">
+      <point x="0.0" y="-43.5" />
+      <point x="474.5" y="86.0" />
+      <point x="403.5" y="86.0" />
+      <point x="0.0" y="30.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="266.5" y="203.5" />
+  <SelectedNodes>
+    <node>ru.mirea.task25.opt1.Rectangle</node>
+    <node>ru.mirea.task25.opt1.Shape</node>
+    <node>ru.mirea.task25.opt1.ShapeDecorator</node>
+    <node>ru.mirea.task25.opt1.RedShapeDecorator</node>
+    <node>ru.mirea.task25.opt1.DecoratorPatternDemo</node>
+    <node>ru.mirea.task25.opt1.Circle</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
